@@ -1,34 +1,140 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Verse - Brookhaven RP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-# Local configuration file (sdk path, etc)
-local.properties
+        body {
+            background-color: #0f1117;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-# Log/OS Files
-*.log
+        header {
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(180deg, #181b26 0%, #0f1117 100%);
+            display: flex;
+            justify-content: center;
+            border-bottom: 2px solid #e2b023;
+        }
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+        .container {
+            max-width: 900px;
+            width: 90%;
+            margin: 30px auto;
+            text-align: center;
+        }
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+        .logo {
+            max-width: 350px;
+            width: 100%;
+            height: auto;
+            filter: drop-shadow(0px 0px 15px rgba(226, 176, 35, 0.4));
+            margin-bottom: 20px;
+        }
 
-# Keystore files
-*.jks
-*.keystore
+        h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+        p.subtitle {
+            font-size: 1.2rem;
+            color: #a0a5b5;
+            margin-bottom: 30px;
+        }
 
-# Android Profiling
-*.hprof
+        .card {
+            background: #181b26;
+            border: 1px solid #2a2e3d;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+
+        .card h2 {
+            color: #e2b023;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.6;
+            color: #d1d5db;
+        }
+
+        .btn-discord {
+            display: inline-block;
+            background: linear-gradient(135deg, #5865F2 0%, #404EED 100%);
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(88, 101, 242, 0.4);
+            margin-top: 10px;
+        }
+
+        .btn-discord:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(88, 101, 242, 0.6);
+            background: linear-gradient(135deg, #4752C4 0%, #3542B8 100%);
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Hero Verse Logo" class="logo">
+    </header>
+
+    <div class="container">
+        <h1>Bem-vindo ao Hero Verse</h1>
+        <p class="subtitle">O maior e melhor Roleplay de Heróis no Brookhaven (Roblox)</p>
+
+        <div class="card">
+            <h2>⚡ Crie sua história, torne-se um Herói ou Vilão!</h2>
+            <p>
+                No **Hero Verse**, você escolhe seu caminho na cidade de Brookhaven. Crie seus próprios superpoderes, proteja a cidade contra o caos ou comande as sombras como um supervilão. Prepare-se para eventos épicos, batalhas e um RP totalmente imersivo!
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🚀 Junte-se à nossa comunidade</h2>
+            <p style="margin-bottom: 20px;">Entre no nosso servidor do Discord para ter acesso ao servidor VIP, criar sua ficha e ficar por dentro de todos os anúncios e eventos!</p>
+            <a href="https://discord.gg/sR5x9mbGn" target="_blank" class="btn-discord">
+                Entrar no Discord Oficial
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Hero Verse - Roblox Brookhaven RP. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
